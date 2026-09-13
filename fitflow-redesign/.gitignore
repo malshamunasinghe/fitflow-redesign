@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build outputs
+/frontend/build/
+/frontend/dist/
+/backend/dist/
+*.apk
+*.ipa
+
+# Environment / secrets
+.env
+.env.local
+*.pem
+google-services.json
+GoogleService-Info.plist
+firebase-adminsdk-*.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
+
+# AI model artifacts (large binaries)
+ai-service/models/*.tflite
+ai-service/models/*.h5
